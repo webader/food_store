@@ -342,7 +342,7 @@ a {
 }
 
 .instagram .container {
-  padding: 80px 0;
+  padding: 80px 0 40px;
 }
 .instagram .container .instagram__title {
   margin-bottom: 30px;
@@ -393,8 +393,58 @@ a {
   margin: auto;
 }
 
-footer {
-  padding-top: 1200px;
+.friend {
+  background-color: #FFF0E5;
+  background-image: url("../img/friend_bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.friend .container {
+  padding: 60px 0;
+  justify-content: center;
+}
+.friend .container .friend__title {
+  font-family: "Cormorant", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.friend .container img {
+  margin-right: 30px;
+}
+@media screen and (max-width: 567px) {
+  .friend .container img {
+    margin-right: 10px;
+  }
+}
+.friend .container img:last-child {
+  margin-right: 0;
+}
+
+footer .container {
+  padding: 60px 0 35px;
+}
+footer .container .footer__item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #3D3D3D;
+  margin-bottom: 15px;
+}
+footer .container .footer__item:first-child {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  color: #1F1F1F;
+}
+footer .container .footer__item:first-child a {
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
